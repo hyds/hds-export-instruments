@@ -65,7 +65,6 @@ require 'hydlib.pl';
 ## HDS Modules
 #use local::lib "$Bin/HDS/";
 use local::lib "C:/Hydstra/hyd/dat/ini/HDS/";
-use Hydstra;  
 
 ## Globals
 my $prt_fail = '-P';
@@ -119,7 +118,6 @@ main: {
   }, 1000000);
   my %var = %{$varref->{return}->{rows}};
  
-
   my @inst_fields = ('make','model','serial','station','variable');
   
   print "fetching instreg\n";
