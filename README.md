@@ -1,7 +1,7 @@
 hds-export-instruments
 ======================
 
-This HYSCRIPT exports instrument records from Hydstra into a CSV for import to Karl's app.
+This HYSCRIPT exports instrument records from Hydstra into a CSV for import to site runner app.
 
 ## Version
 
